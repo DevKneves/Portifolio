@@ -37,18 +37,18 @@ const Hero = () => {
                 </Grid>
                 <Grid item xs={12} md={7}>
                     <Typography color="primary.contrastText" variant="h1" textAlign="center" pb={2}>Kauã Neves</Typography>
-                    <Typography color="primary.contrastText" variant="h2" textAlign="center" pb={2}>I'm Software Engineer</Typography>
+                    <Typography color="primary.contrastText" variant="h2" textAlign="center" pb={2}>Engenheiro de software</Typography>
                     <Grid container display="flex" justifyContent="center" spacing={3}>
                         <Grid item xs={12} md={4} display="flex" justifyContent="center">
                             <StyledButton>
                                 <DownloadIcon />
-                                <Typography>Download CV</Typography>
+                                <Typography>Baixar Curriculo</Typography>
                             </StyledButton>
                         </Grid>
                         <Grid item xs={12} md={4} display="flex" justifyContent="center">
                              <StyledButton>
                                 <EmailIcon />
-                               <Typography>Contact Me</Typography>
+                               <Typography>Contate-me</Typography>
                                 </StyledButton>
                         </Grid>
                     </Grid>
